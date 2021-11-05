@@ -1,1 +1,4 @@
 hits.log
+.elixir_ls
+_build
+deps
