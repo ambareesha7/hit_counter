@@ -37,7 +37,7 @@ defmodule Learn.Hits do
     hits = Enum.join([date_time(), count], "|") <> "\n"
     File.write!(path(), hits, [:append])
 
-    IO.inspect(count, label: "stored_count from save_hits")
+    # IO.inspect(count, label: "stored_count from save_hits")
     count
   end
 
